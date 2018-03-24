@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="assets/xml/rss.xsl" media="all"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Boyang Yan's personal blog</title><link>http://yanboyang.com/</link><description>This is Boyang Yan's personal blog</description><atom:link href="http://yanboyang.com/rss.xml" rel="self" type="application/rss+xml"></atom:link><language>en</language><copyright>Contents © 2018 &lt;a href="mailto:yanboyang713@gmail.com"&gt;Boyang Yan&lt;/a&gt; </copyright><lastBuildDate>Sat, 24 Mar 2018 14:18:02 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>test for org mode</title><link>http://yanboyang.com/posts/test-for-org-mode/</link><dc:creator>Boyang Yan</dc:creator><description>&lt;div id="outline-container-org5ba9e96" class="outline-2"&gt;
+&lt;h2 id="org5ba9e96"&gt;test 1&lt;/h2&gt;
+&lt;div class="outline-text-2" id="text-org5ba9e96"&gt;
+&lt;/div&gt;
+&lt;div id="outline-container-org5d2d290" class="outline-3"&gt;
+&lt;h3 id="org5d2d290"&gt;test 2&lt;/h3&gt;
+&lt;div class="outline-text-3" id="text-org5d2d290"&gt;
+&lt;/div&gt;
+&lt;div id="outline-container-org2a2af76" class="outline-4"&gt;
+&lt;h4 id="org2a2af76"&gt;test 3&lt;/h4&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;</description><guid>http://yanboyang.com/posts/test-for-org-mode/</guid><pubDate>Sat, 24 Mar 2018 13:59:50 GMT</pubDate></item></channel></rss>
