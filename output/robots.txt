@@ -1,0 +1,4 @@
+Sitemap: http://yanboyang.com/sitemapindex.xml
+
+User-Agent: *
+Host: yanboyang.com
