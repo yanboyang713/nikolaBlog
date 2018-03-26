@@ -1,0 +1,13 @@
+#+BEGIN_COMMENT
+.. title: this is final test
+.. slug: this-is-final-test
+.. date: 2018-03-26 12:02:45 UTC+11:00
+.. tags: 
+.. category: 
+.. link: 
+.. description: 
+.. type: text
+#+END_COMMENT
+
+* this is a final test
+** hope all work
