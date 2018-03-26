@@ -24,7 +24,7 @@ BLOG_TITLE = "Boyang Yan's personal blog"  # (translatable)
 SITE_URL = "http://yanboyang.com/"
 # This is the URL where Nikola's output will be deployed.
 # If not set, defaults to SITE_URL
-# BASE_URL = "http://yanboyang.com/"
+BASE_URL = "http://yanboyang.com/"
 BLOG_EMAIL = "yanboyang713@gmail.com"
 BLOG_DESCRIPTION = "This is Boyang Yan's personal blog"  # (translatable)
 
@@ -250,7 +250,7 @@ TIMEZONE = "Australia/Sydney"
 # One or more folders containing files to be copied as-is into the output.
 # The format is a dictionary of {source: relative destination}.
 # Default is:
-FILES_FOLDERS = {'posts/ltxpng': 'posts/ltxpng', 'posts/MSimg': 'posts/MSimg', 'posts/file':'posts/file', 'CNAME': 'CNAME'}
+FILES_FOLDERS = {'posts/ltxpng': 'posts/ltxpng', 'posts/MSimg': 'posts/MSimg', 'posts/file':'posts/file'}
 # FILES_FOLDERS = {'files': ''}
 # Which means copy 'files' into 'output'
 
