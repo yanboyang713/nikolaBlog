@@ -7,11 +7,11 @@
                         http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
  <sitemap>
   <loc>http://yanboyang.com/galleries/demo/rss.xml</loc>
-  <lastmod>2018-03-26T02:04:00Z</lastmod>
+  <lastmod>2018-03-26T05:23:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://yanboyang.com/galleries/rss.xml</loc>
-  <lastmod>2018-03-26T02:04:00Z</lastmod>
+  <lastmod>2018-03-26T05:23:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://yanboyang.com/rss.xml</loc>
@@ -19,6 +19,6 @@
  </sitemap>
  <sitemap>
   <loc>http://yanboyang.com/sitemap.xml</loc>
-  <lastmod>2018-03-26T02:07:00Z</lastmod>
+  <lastmod>2018-03-26T05:23:00Z</lastmod>
  </sitemap>
 </sitemapindex>

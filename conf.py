@@ -250,7 +250,6 @@ TIMEZONE = "Australia/Sydney"
 # One or more folders containing files to be copied as-is into the output.
 # The format is a dictionary of {source: relative destination}.
 # Default is:
-FILES_FOLDERS = {'posts/ltxpng': 'posts/ltxpng', 'posts/MSimg': 'posts/MSimg', 'posts/file':'posts/file', '/files/CNAME': '.'}
 # FILES_FOLDERS = {'files': ''}
 # Which means copy 'files' into 'output'
 
