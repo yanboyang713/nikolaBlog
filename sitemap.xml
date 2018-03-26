@@ -10,52 +10,16 @@
   <lastmod>2018-03-24T03:11:00Z</lastmod>
  </url>
  <url>
-  <loc>http://yanboyang.com/2012/</loc>
-  <lastmod>2018-03-24T03:08:00Z</lastmod>
- </url>
- <url>
   <loc>http://yanboyang.com/2018/</loc>
   <lastmod>2018-03-24T03:11:00Z</lastmod>
  </url>
  <url>
   <loc>http://yanboyang.com/archive.html</loc>
-  <lastmod>2018-03-24T14:18:00Z</lastmod>
- </url>
- <url>
-  <loc>http://yanboyang.com/authors/</loc>
-  <lastmod>2018-03-24T03:11:00Z</lastmod>
- </url>
- <url>
-  <loc>http://yanboyang.com/authors/boyang-yan/</loc>
-  <lastmod>2018-03-24T03:11:00Z</lastmod>
- </url>
- <url>
-  <loc>http://yanboyang.com/authors/roberto-alsina/</loc>
-  <lastmod>2018-03-24T03:11:00Z</lastmod>
+  <lastmod>2018-03-26T01:04:00Z</lastmod>
  </url>
  <url>
   <loc>http://yanboyang.com/categories/</loc>
-  <lastmod>2018-03-24T03:08:00Z</lastmod>
- </url>
- <url>
-  <loc>http://yanboyang.com/categories/blog/</loc>
-  <lastmod>2018-03-24T03:08:00Z</lastmod>
- </url>
- <url>
-  <loc>http://yanboyang.com/categories/cat_nikola/</loc>
-  <lastmod>2018-03-24T03:08:00Z</lastmod>
- </url>
- <url>
-  <loc>http://yanboyang.com/categories/demo/</loc>
-  <lastmod>2018-03-24T03:08:00Z</lastmod>
- </url>
- <url>
-  <loc>http://yanboyang.com/categories/nikola/</loc>
-  <lastmod>2018-03-24T03:08:00Z</lastmod>
- </url>
- <url>
-  <loc>http://yanboyang.com/categories/python/</loc>
-  <lastmod>2018-03-24T03:08:00Z</lastmod>
+  <lastmod>2018-03-24T14:18:00Z</lastmod>
  </url>
  <url>
   <loc>http://yanboyang.com/galleries/</loc>
@@ -75,7 +39,7 @@
  </url>
  <url>
   <loc>http://yanboyang.com/listings/hello.py.html</loc>
-  <lastmod>2018-03-24T14:18:00Z</lastmod>
+  <lastmod>2018-03-26T00:07:00Z</lastmod>
  </url>
  <url>
   <loc>http://yanboyang.com/pages/about-nikola/</loc>
@@ -138,27 +102,11 @@
   <lastmod>2018-03-24T03:08:00Z</lastmod>
  </url>
  <url>
-  <loc>http://yanboyang.com/posts/after-set-org-mode/</loc>
-  <lastmod>2018-03-24T14:00:00Z</lastmod>
- </url>
- <url>
-  <loc>http://yanboyang.com/posts/new-test/</loc>
-  <lastmod>2018-03-24T13:39:00Z</lastmod>
- </url>
- <url>
   <loc>http://yanboyang.com/posts/test-for-org-mode/</loc>
   <lastmod>2018-03-24T14:00:00Z</lastmod>
  </url>
  <url>
-  <loc>http://yanboyang.com/posts/test-from-spacemacs/</loc>
-  <lastmod>2018-03-24T13:23:00Z</lastmod>
- </url>
- <url>
-  <loc>http://yanboyang.com/posts/this-is-my-first-time-using-nikola/</loc>
-  <lastmod>2018-03-24T03:11:00Z</lastmod>
- </url>
- <url>
-  <loc>http://yanboyang.com/posts/welcome-to-nikola/</loc>
-  <lastmod>2018-03-24T03:08:00Z</lastmod>
+  <loc>http://yanboyang.com/posts/this-is-final-test/</loc>
+  <lastmod>2018-03-26T01:04:00Z</lastmod>
  </url>
 </urlset>
