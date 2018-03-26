@@ -11,7 +11,7 @@
  </url>
  <url>
   <loc>http://yanboyang.com/archive.html</loc>
-  <lastmod>2018-03-26T01:20:00Z</lastmod>
+  <lastmod>2018-03-26T01:31:00Z</lastmod>
  </url>
  <url>
   <loc>http://yanboyang.com/categories/</loc>
@@ -98,7 +98,11 @@
   <lastmod>2018-03-24T03:08:00Z</lastmod>
  </url>
  <url>
-  <loc>http://yanboyang.com/posts/this-is-final-test/</loc>
-  <lastmod>2018-03-26T01:04:00Z</lastmod>
+  <loc>http://yanboyang.com/posts/test-for-org-mode/</loc>
+  <lastmod>2018-03-24T14:00:00Z</lastmod>
+ </url>
+ <url>
+  <loc>http://yanboyang.com/posts/test/</loc>
+  <lastmod>2018-03-26T01:31:00Z</lastmod>
  </url>
 </urlset>
