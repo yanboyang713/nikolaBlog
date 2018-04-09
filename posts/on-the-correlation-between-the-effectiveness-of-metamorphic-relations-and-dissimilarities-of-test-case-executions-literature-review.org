@@ -8,8 +8,7 @@
 .. description: 
 .. type: text
 #+END_COMMENT
-[[../images/uow.jpg]]
-
+[[https://acebr.uow.edu.au/content/groups/public/@web/@acebr/documents/mm/uow170816.jpg]]
 Y. Cao, Z. Q. Zhou, and T. Y. Chen, “On the correlation between the effectiveness of metamorphic relations and dissimilarities of test case executions,” in Proceedings of the 13th International Conference on Quality Software (QSIC’13). IEEE, 2013, pp. 153–162
 
 + summary
