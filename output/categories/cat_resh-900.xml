@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="../assets/xml/rss.xsl" media="all"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Boyang Yan's personal blog (Posts about RESH-900)</title><link>http://yanboyang.com/</link><description></description><atom:link href="http://yanboyang.com/categories/cat_resh-900.xml" rel="self" type="application/rss+xml"></atom:link><language>en</language><copyright>Contents © 2018 &lt;a href="mailto:yanboyang713@gmail.com"&gt;Boyang Yan&lt;/a&gt; </copyright><lastBuildDate>Mon, 09 Apr 2018 02:13:48 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Research Topic and Title</title><link>http://yanboyang.com/posts/research-topic-and-title/</link><dc:creator>Boyang Yan</dc:creator><description>&lt;p&gt;
+I am current doing Master of Research in UOW (school of computer and information science). My supervisers are George Zhou and Jack Yang.
+&lt;/p&gt;
+
+&lt;p&gt;
+My title of research topic is: "Testing in cross-language sentiment analysis service"
+&lt;/p&gt;
+
+&lt;p&gt;
+The purpose of research is want to achieve a methodologic for finding which meachine translateor service combined with which English sentiment analysis service can obtain reliable sentiment analysis result for non-English speaker, who does not have sentiment analysis tool to analysis their own language.
+&lt;/p&gt;
+
+&lt;p&gt;
+The research total have three parts.
+Firstly, measuring meachine translation service quality base on sentiment analysis result from both side, as well as using around translation to test translation service quality.
+Secondly, testing sentiment analysis service quality base on movie comment by different ranking.
+Thirdly, finding the best compound mode for meachine translation service and sentiment analysis service.
+&lt;/p&gt;
+
+&lt;p&gt;
+The testing method, I will fouce on metamorphic testing method.
+&lt;/p&gt;</description><guid>http://yanboyang.com/posts/research-topic-and-title/</guid><pubDate>Mon, 09 Apr 2018 01:32:35 GMT</pubDate></item></channel></rss>
