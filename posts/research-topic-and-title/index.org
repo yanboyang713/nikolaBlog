@@ -1,0 +1,22 @@
+#+BEGIN_COMMENT
+.. title: Research Topic and Title
+.. slug: research-topic-and-title
+.. date: 2018-04-09 11:32:35 UTC+10:00
+.. tags: 
+.. category: RESH-900
+.. link: 
+.. description: for RESH-900
+.. type: text
+#+END_COMMENT
+I am current doing Master of Research in UOW (school of computer and information science). My supervisers are George Zhou and Jack Yang.
+
+My title of research topic is: "Testing in cross-language sentiment analysis service"
+
+The purpose of research is want to achieve a methodologic for finding which meachine translateor service combined with which English sentiment analysis service can obtain reliable sentiment analysis result for non-English speaker, who does not have sentiment analysis tool to analysis their own language.
+
+The research total have three parts.
+Firstly, measuring meachine translation service quality base on sentiment analysis result from both side, as well as using around translation to test translation service quality.
+Secondly, testing sentiment analysis service quality base on movie comment by different ranking.
+Thirdly, finding the best compound mode for meachine translation service and sentiment analysis service.
+
+The testing method, I will fouce on metamorphic testing method.
