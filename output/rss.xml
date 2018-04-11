@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="assets/xml/rss.xsl" media="all"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Boyang Yan's personal blog</title><link>http://yanboyang.com/</link><description>This is Boyang Yan's personal blog</description><atom:link href="http://yanboyang.com/rss.xml" rel="self" type="application/rss+xml"></atom:link><language>en</language><copyright>Contents © 2018 &lt;a href="mailto:yanboyang713@gmail.com"&gt;Boyang Yan&lt;/a&gt; </copyright><lastBuildDate>Wed, 11 Apr 2018 02:06:39 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>convert Excel to CSV</title><link>http://yanboyang.com/posts/convert-excel-to-csv/</link><dc:creator>Boyang Yan</dc:creator><description>&lt;p&gt;
+Comma-separated values (CSV) is a widely used file format that stores tabular data (numbers and text) as plain text separated by commas (,) in a series of lines (rows). You can easier open a CSV file in a text editor and read it. Many applications and programing language are capable of reading and writing CSV files.
+Excel (represented as XL) Spreadsheet (XLS) file format is an MS Excel workbook binary file, which holds information about all the worksheets in a workbook, comprising both content and formatting (number masking, colouring, conditional formatting, etc), and can also hold additionals like charts, images, etc.
+&lt;/p&gt;
+
+&lt;p&gt;
+My personal opinion, if you write your own programs, such as using c++ or Python, I think the best way is using CSV format.
+Reasons:
+&lt;/p&gt;
+&lt;ul class="org-ul"&gt;
+&lt;li&gt;In c++ or Python, there are a lot of free libraries for reading and writing CSV format.&lt;/li&gt;
+&lt;li&gt;In C++, I have found a library, which name is libxl(&lt;a href="http://www.libxl.com/"&gt;http://www.libxl.com/&lt;/a&gt;) for reading and writing Excel file but not free.&lt;/li&gt;
+&lt;li&gt;In Python, there is a open sourse Excel library, which name is openpyxl, but I have found this library are not suitable for large amount of data operation, because very slow. openpyxl is a Python library for reading and writing Excel 2010 xlsx/xlsm/xltx/xltm files.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;
+However, Microsoft excel have lots of build-in function for operation data. if you have found Microsoft Excel build-in function is suitable for your project. I think convert CSV to Excel format to better way, you need not rewrite function by yourself. For example, You write your own coding for collect data in CSV file, after you convert CSV file to excel for draw graphic.
+When you find Excel have not suitable build-in function for you. You can convert back to CSV.
+&lt;/p&gt;
+
+&lt;p&gt;
+As a result, converting CSV to Excel and converting back are very importance.
+&lt;/p&gt;
+
+&lt;p&gt;
+So, I have done some of converting process literature review to share to yours.
+&lt;/p&gt;
+
+
+&lt;p&gt;
+&lt;a href="https://www.ablebits.com/office-addins-blog/2014/04/24/convert-excel-csv/"&gt;https://www.ablebits.com/office-addins-blog/2014/04/24/convert-excel-csv/&lt;/a&gt;
+&lt;/p&gt;</description><guid>http://yanboyang.com/posts/convert-excel-to-csv/</guid><pubDate>Wed, 11 Apr 2018 01:05:28 GMT</pubDate></item><item><title>An Effective Git And Org-Mode Based Workflow For Reproducible Research Literature review</title><link>http://yanboyang.com/posts/an-effective-git-and-org-mode-based-workflow-for-reproducible-research-literature-review/</link><dc:creator>Boyang Yan</dc:creator><description>&lt;p&gt;
+In this paper we address the question of developing a
+lightweight and effective workflow for conducting experimental
+research on modern parallel computer systems in a reproducible
+way. Our approach builds on two well-known tools
+(Git and Org-mode) and enables to address, at least partially,
+issues such as running experiments, provenance tracking,
+experimental setup reconstruction or replicable analysis.
+We have been using such a methodology for two years now
+and it enabled us to recently publish a fully reproducible
+article [12]. To fully demonstrate the effectiveness of our
+proposal, we have opened our two year laboratory notebook
+with all the attached experimental data. This notebook and
+the underlying Git revision control system enable to illustrate
+and to better understand the workflow we used.
+&lt;/p&gt;
+
+&lt;p&gt;
+Write your post here.
+&lt;/p&gt;</description><guid>http://yanboyang.com/posts/an-effective-git-and-org-mode-based-workflow-for-reproducible-research-literature-review/</guid><pubDate>Mon, 09 Apr 2018 03:30:07 GMT</pubDate></item><item><title>On the correlation between the effectiveness of metamorphic relations and dissimilarities of test case executions Literature Review</title><link>http://yanboyang.com/posts/on-the-correlation-between-the-effectiveness-of-metamorphic-relations-and-dissimilarities-of-test-case-executions-literature-review/</link><dc:creator>Boyang Yan</dc:creator><description>&lt;p&gt;
+&lt;img src="https://acebr.uow.edu.au/content/groups/public/@web/@acebr/documents/mm/uow170816.jpg" alt="uow170816.jpg"&gt;
+Y. Cao, Z. Q. Zhou, and T. Y. Chen, “On the correlation between the effectiveness of metamorphic relations and dissimilarities of test case executions,” in Proceedings of the 13th International Conference on Quality Software (QSIC’13). IEEE, 2013, pp. 153–162
+&lt;/p&gt;
+
+&lt;ul class="org-ul"&gt;
+&lt;li&gt;summary&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+In the field of software testing, the oracle assumption is commonly acknowledged, where a test oracle exists. However, under certain circumstances, the assumption is considered invalid as the oracle problem would come up when it is not feasible to decide whether an output of a test case execution is correct. Or else, in some situations, the manual predictions and verifications of outputs carry excessive time cost and potentials of error when an oracle cannot be automated.
+&lt;/p&gt;
+
+&lt;p&gt;
+A metamorphic testing method is therefore prompted to abate the oracle problem. Metamorphic testing (MT) is a property-based software testing method developed for automated test case generation and automated result verification, under the effect of some expected properties of the target program. These properties recognized as metamorphic relations (MRs) serve as essential relations among the inputs and outcomes of multiple executions of the target program. Invariably there are more than one MR that are able to be identified. The MRs with the nature of possessing higher possibility of revealing failures are considered good MRs, and are correlated with the dissimilarity (distance) of test case execution profiles. Empirical study has indicated that  there is a strong and statistically significant positive correlation between the fault-detection effectiveness of MRs and the distance of those profiles. Also, MRs with very different initial and follow-up execution are more likely to detect failures than those with similar initial and follow-up executions. The concept of “difference” are defined in namely coverage Manhattan distance (CMD), frequency Manhattan distance (FMD), and frequency Hamming distance (FHD) in regards to adaptive random testing (ART), where CMD metric on the basis of branch coverage execution profiles performs the best fault-detection effectiveness.
+&lt;/p&gt;
+
+&lt;p&gt;
+This paper extends the investigation to metamorphic testing, which is devoted to discover whether the distance metrics based on execution profiles can be used to quantitatively measure the dissimilarity of test case executions in metamorphic testing. If yes, the paper will examine further whether there exists a strong correlation between the distance measures and  the fault-detection effectiveness of metamorphic relations. The benefits of conducting such research lie in the exposure of MRs with good nature as well as the development of automated means for the selection and prioritization of MRs.
+&lt;/p&gt;
+
+&lt;p&gt;
+The paper firstly provides three detailed concepts, namely the dissimilarity between initial and follow-up test case executions in metamorphic testing, execution profiles and distance metrics. In the further design of experiments, the paper includes 7 subject packages, with the description of dependent and independent variables, subject programs, the coverage monitoring tool, and the experiment procedure. The seven subject programs are spWiki, cpWiki, spStudent, bigInt, grep, sed, and bash. The experimental results are presented with specific observation data in experiment failure, segmentation faults, mean results of correlation coefficients and p-values. The paper concludes that there is a significant strong positive correlation between BCMD and the fault-detection effectiveness of MRs. Finally, the paper offers a comparison with related work and discusses about a number of ways where the findings of this research can be implemented in order to accomplish cost-effective metamorphic testing.
+&lt;/p&gt;</description><category>literature review</category><guid>http://yanboyang.com/posts/on-the-correlation-between-the-effectiveness-of-metamorphic-relations-and-dissimilarities-of-test-case-executions-literature-review/</guid><pubDate>Mon, 09 Apr 2018 02:42:23 GMT</pubDate></item><item><title>Search Terms</title><link>http://yanboyang.com/posts/search-terms/</link><dc:creator>Boyang Yan</dc:creator><description>&lt;p&gt;
+My title of research topic is: "Testing in cross-language sentiment analysis service"
+Terms for find articles in literature review
+&lt;/p&gt;
+&lt;ul class="org-ul"&gt;
+&lt;li&gt;sentiment analysis&lt;/li&gt;
+&lt;li&gt;text mining&lt;/li&gt;
+&lt;li&gt;machine translation&lt;/li&gt;
+&lt;li&gt;text segmentation&lt;/li&gt;
+&lt;li&gt;text classifity&lt;/li&gt;
+&lt;li&gt;meachine learning&lt;/li&gt;
+&lt;li&gt;deep learning&lt;/li&gt;
+&lt;li&gt;neural network&lt;/li&gt;
+&lt;li&gt;metamorphic testing&lt;/li&gt;
+&lt;li&gt;adaptive random testing&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;
+Key journals:
+&lt;/p&gt;
+&lt;ul class="org-ul"&gt;
+&lt;li&gt;IEEE&lt;/li&gt;
+&lt;li&gt;ACM&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;
+Key authors:
+zhiQuan (George) Zhou
+&lt;/p&gt;</description><category>search terms</category><guid>http://yanboyang.com/posts/search-terms/</guid><pubDate>Mon, 09 Apr 2018 02:17:05 GMT</pubDate></item><item><title>Research Topic and Title</title><link>http://yanboyang.com/posts/research-topic-and-title/</link><dc:creator>Boyang Yan</dc:creator><description>&lt;p&gt;
+I am current doing Master of Research in UOW (school of computer and information science). My supervisers are George Zhou and Jack Yang.
+&lt;/p&gt;
+
+&lt;p&gt;
+My title of research topic is: "Testing in cross-language sentiment analysis service"
+&lt;/p&gt;
+
+&lt;p&gt;
+The purpose of research is want to achieve a methodologic for finding which meachine translateor service combined with which English sentiment analysis service can obtain reliable sentiment analysis result for non-English speaker, who does not have sentiment analysis tool to analysis their own language.
+&lt;/p&gt;
+
+&lt;p&gt;
+The research total have three parts.
+Firstly, measuring meachine translation service quality base on sentiment analysis result from both side, as well as using around translation to test translation service quality.
+Secondly, testing sentiment analysis service quality base on movie comment by different ranking.
+Thirdly, finding the best compound mode for meachine translation service and sentiment analysis service.
+&lt;/p&gt;
+
+&lt;p&gt;
+The testing method, I will fouce on metamorphic testing method.
+&lt;/p&gt;</description><guid>http://yanboyang.com/posts/research-topic-and-title/</guid><pubDate>Mon, 09 Apr 2018 01:32:35 GMT</pubDate></item></channel></rss>

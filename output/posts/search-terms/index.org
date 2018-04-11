@@ -1,0 +1,30 @@
+#+BEGIN_COMMENT
+.. title: Search Terms
+.. slug: search-terms
+.. date: 2018-04-09 12:17:05 UTC+10:00
+.. tags: search terms
+.. category: RESH-900
+.. link: 
+.. description: 
+.. type: text
+#+END_COMMENT
+
+My title of research topic is: "Testing in cross-language sentiment analysis service"
+Terms for find articles in literature review
++ sentiment analysis
++ text mining
++ machine translation
++ text segmentation
++ text classifity
++ meachine learning
++ deep learning
++ neural network
++ metamorphic testing
++ adaptive random testing
+
+Key journals:
++ IEEE
++ ACM
+
+Key authors:
+zhiQuan (George) Zhou
