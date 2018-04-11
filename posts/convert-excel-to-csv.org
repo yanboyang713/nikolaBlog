@@ -27,6 +27,7 @@ So, I have done some of converting process literature review to share to yours.
 
 
 https://www.ablebits.com/office-addins-blog/2014/04/24/convert-excel-csv/
-#+BEGIN_SRC python :results html replace
-print("Hello World")
+
+#+BEGIN_SRC python
+print ("test")
 #+END_SRC
