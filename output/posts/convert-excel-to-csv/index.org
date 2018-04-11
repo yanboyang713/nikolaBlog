@@ -1,0 +1,29 @@
+#+BEGIN_COMMENT
+.. title: convert Excel to CSV
+.. slug: convert-excel-to-csv
+.. date: 2018-04-11 11:05:28 UTC+10:00
+.. tags: 
+.. category: 
+.. link: 
+.. description: 
+.. type: text
+#+END_COMMENT
+
+Comma-separated values (CSV) is a widely used file format that stores tabular data (numbers and text) as plain text separated by commas (,) in a series of lines (rows). You can easier open a CSV file in a text editor and read it. Many applications and programing language are capable of reading and writing CSV files.
+Excel (represented as XL) Spreadsheet (XLS) file format is an MS Excel workbook binary file, which holds information about all the worksheets in a workbook, comprising both content and formatting (number masking, colouring, conditional formatting, etc), and can also hold additionals like charts, images, etc.
+
+My personal opinion, if you write your own programs, such as using c++ or Python, I think the best way is using CSV format.
+Reasons:
++ In c++ or Python, there are a lot of free libraries for reading and writing CSV format.
++ In C++, I have found a library, which name is libxl(http://www.libxl.com/) for reading and writing Excel file but not free.
++ In Python, there is a open sourse Excel library, which name is openpyxl, but I have found this library are not suitable for large amount of data operation, because very slow. openpyxl is a Python library for reading and writing Excel 2010 xlsx/xlsm/xltx/xltm files.
+
+However, Microsoft excel have lots of build-in function for operation data. if you have found Microsoft Excel build-in function is suitable for your project. I think convert CSV to Excel format to better way, you need not rewrite function by yourself. For example, You write your own coding for collect data in CSV file, after you convert CSV file to excel for draw graphic.
+When you find Excel have not suitable build-in function for you. You can convert back to CSV.
+
+As a result, converting CSV to Excel and converting back are very importance.
+
+So, I have done some of converting process literature review to share to yours.
+
+
+https://www.ablebits.com/office-addins-blog/2014/04/24/convert-excel-csv/
