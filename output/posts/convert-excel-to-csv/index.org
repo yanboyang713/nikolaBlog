@@ -8,7 +8,7 @@
 .. description: 
 .. type: text
 #+END_COMMENT
-
+* Introduction
 Comma-separated values (CSV) is a widely used file format that stores tabular data (numbers and text) as plain text separated by commas (,) in a series of lines (rows). You can easier open a CSV file in a text editor and read it. Many applications and programing language are capable of reading and writing CSV files.
 Excel (represented as XL) Spreadsheet (XLS) file format is an MS Excel workbook binary file, which holds information about all the worksheets in a workbook, comprising both content and formatting (number masking, colouring, conditional formatting, etc), and can also hold additionals like charts, images, etc.
 
@@ -27,7 +27,62 @@ So, I have done some of converting process literature review to share to yours.
 
 
 https://www.ablebits.com/office-addins-blog/2014/04/24/convert-excel-csv/
+* How to convert Excel file to CSV
+  1. In your Excel workbook, switch to the File tab, and then click Save As. Alternatively, you can press F12 to open the same Save As dialog.
+[[https://cdn.ablebits.com/_img-blog/excel-csv/excel-save-as.png]]
 
-#+BEGIN_SRC c++
-print ("test")
-#+END_SRC
+  2. In the Save as type box, choose to save your Excel file as CSV (Comma delimited).
+[[https://cdn.ablebits.com/_img-blog/excel-csv/save-excel-csv.png]]
+
+Besides CSV (comma delimited), a few other csv formats are available to you:
+
+CSV (comma delimited). This format saves an Excel file as a comma-separated text that can be used in another Windows program or another version of Windows operating system.
+CSV (Macintosh). This format saves your Excel workbook as a comma-separated file for use on Mac operating system.
+CSV (MS-DOS). Saves your Excel file as a comma-separated file for use on the MS-DOS operating system.
+Unicode Text (*txt). This is a computing industry standard supported by almost all current operating systems including Windows, Macintosh, Linux and Solaris Unix. It can handle characters of almost all modern languages and even some ancient ones. So, if you Excel file contains data in a foreign language, save it in the Unicode Text format first and then convert to CSV, as explained in Exporting Excel to CSV UTF-8 or UTF-16.
+Note. All of the above mentioned formats save only the active Excel sheet.
+
+  3. Choose the destination folder where you want to save your Excel file in the CSV format, and then click Save. After you click Save, Excel will display two dialogs. Don't worry, these are not error messages and everything is going right.
+
+  4. The first dialog reminds you that only the active Excel spreadsheet will be saved to the CSV file format. If this is what you are looking for, click OK. If you need to save the contents of all the sheets your workbook contains, click Cancel and then save each spreadsheet individually as a separate Excel file (workbook). After that save each Excel file as CSV.
+
+  5. Clicking OK in the first dialog will display a second message informing you that your worksheet may contain features unsupported by the CSV encoding. This is Okay, so simply click Yes.
+* Export Excel to CSV with UTF-8 or UTF-16 encoding
+
+If your Excel spreadsheets contain some special symbols, foreign characters (tildes, accent etc.) or hieroglyphs, then converting Excel to CSV in the way described above won't work.
+
+The point is the Save As CSV command distorts any characters other than ASCII (American Standard Code for Information Interchange). And if your Excel file has smart quotes or long dashes (e.g. inherited from the original Word document that was copied /pasted to Excel), these characters would be mangled too.
+
+An easy alternative is saving an Excel workbook as a Unicode(.txt) file and then converting it to CSV. In this way you will keep all non-ASCII characters undamaged.
+
+Before we proceed further, let me briefly point out the main differences between UTF-8 and UTF-16 encodings so that you can choose the right format in each particular case.
+
+UTF-8 is a more compact encoding since it uses 1 to 4 bytes for each symbol. Generally, this format is recommended if ASCII characters are most prevalent in your file because most such characters are stored in one byte each. Another advantage is that a UTF-8 file containing only ASCII characters has absolutely the same encoding as an ASCII file.
+
+UTF-16 uses 2 to 4 bytes to store each symbol. However, a UTF-16 file does not always require more storage than UTF-8. For example, Japanese characters take 3 to 4 bytes in UTF-8 and 2 to 4 bytes in UTF-16. So, you may want to use UTF-16 if your Excel data contains any Asian characters, including Japanese, Chinese or Korean. A noticeable disadvantage of this format is that it's not fully compatible with ASCII files and requires some Unicode-aware programs to display them. Please keep this in mind if you are going to import the resulting file somewhere outside of Excel.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+dd
