@@ -1,5 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
-<?xml-stylesheet type="text/xsl" href="assets/xml/rss.xsl" media="all"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Boyang Yan's personal blog</title><link>http://yanboyang.com/</link><description>This is Boyang Yan's personal blog</description><atom:link href="http://yanboyang.com/rss.xml" rel="self" type="application/rss+xml"></atom:link><language>en</language><copyright>Contents © 2018 &lt;a href="mailto:yanboyang713@gmail.com"&gt;Boyang Yan&lt;/a&gt; </copyright><lastBuildDate>Wed, 11 Apr 2018 02:06:39 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>convert Excel to CSV</title><link>http://yanboyang.com/posts/convert-excel-to-csv/</link><dc:creator>Boyang Yan</dc:creator><description>&lt;p&gt;
+<?xml-stylesheet type="text/xsl" href="assets/xml/rss.xsl" media="all"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Boyang Yan's personal blog</title><link>http://yanboyang.com/</link><description>This is Boyang Yan's personal blog</description><atom:link href="http://yanboyang.com/rss.xml" rel="self" type="application/rss+xml"></atom:link><language>en</language><copyright>Contents © 2018 &lt;a href="mailto:yanboyang713@gmail.com"&gt;Boyang Yan&lt;/a&gt; </copyright><lastBuildDate>Wed, 11 Apr 2018 03:13:21 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>convert Excel to CSV</title><link>http://yanboyang.com/posts/convert-excel-to-csv/</link><dc:creator>Boyang Yan</dc:creator><description>&lt;div id="table-of-contents"&gt;
+&lt;h2&gt;Table of Contents&lt;/h2&gt;
+&lt;div id="text-table-of-contents"&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="http://yanboyang.com/posts/convert-excel-to-csv/#orgee86df7"&gt;Introduction&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://yanboyang.com/posts/convert-excel-to-csv/#org61c5b83"&gt;How to convert Excel file to CSV&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://yanboyang.com/posts/convert-excel-to-csv/#orge70877a"&gt;Export Excel to CSV with UTF-8 or UTF-16 encoding&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id="outline-container-orgee86df7" class="outline-2"&gt;
+&lt;h2 id="orgee86df7"&gt;Introduction&lt;/h2&gt;
+&lt;div class="outline-text-2" id="text-orgee86df7"&gt;
+&lt;p&gt;
 Comma-separated values (CSV) is a widely used file format that stores tabular data (numbers and text) as plain text separated by commas (,) in a series of lines (rows). You can easier open a CSV file in a text editor and read it. Many applications and programing language are capable of reading and writing CSV files.
 Excel (represented as XL) Spreadsheet (XLS) file format is an MS Excel workbook binary file, which holds information about all the worksheets in a workbook, comprising both content and formatting (number masking, colouring, conditional formatting, etc), and can also hold additionals like charts, images, etc.
 &lt;/p&gt;
@@ -30,7 +43,107 @@ So, I have done some of converting process literature review to share to yours.
 
 &lt;p&gt;
 &lt;a href="https://www.ablebits.com/office-addins-blog/2014/04/24/convert-excel-csv/"&gt;https://www.ablebits.com/office-addins-blog/2014/04/24/convert-excel-csv/&lt;/a&gt;
-&lt;/p&gt;</description><guid>http://yanboyang.com/posts/convert-excel-to-csv/</guid><pubDate>Wed, 11 Apr 2018 01:05:28 GMT</pubDate></item><item><title>An Effective Git And Org-Mode Based Workflow For Reproducible Research Literature review</title><link>http://yanboyang.com/posts/an-effective-git-and-org-mode-based-workflow-for-reproducible-research-literature-review/</link><dc:creator>Boyang Yan</dc:creator><description>&lt;p&gt;
+&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id="outline-container-org61c5b83" class="outline-2"&gt;
+&lt;h2 id="org61c5b83"&gt;How to convert Excel file to CSV&lt;/h2&gt;
+&lt;div class="outline-text-2" id="text-org61c5b83"&gt;
+&lt;ol class="org-ol"&gt;
+&lt;li&gt;In your Excel workbook, switch to the File tab, and then click Save As. Alternatively, you can press F12 to open the same Save As dialog.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;div class="figure"&gt;
+&lt;p&gt;&lt;img src="https://cdn.ablebits.com/_img-blog/excel-csv/excel-save-as.png" alt="excel-save-as.png"&gt;
+&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;ol class="org-ol"&gt;
+&lt;li&gt;In the Save as type box, choose to save your Excel file as CSV (Comma delimited).&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;div class="figure"&gt;
+&lt;p&gt;&lt;img src="https://cdn.ablebits.com/_img-blog/excel-csv/save-excel-csv.png" alt="save-excel-csv.png"&gt;
+&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;p&gt;
+Besides CSV (comma delimited), a few other csv formats are available to you:
+&lt;/p&gt;
+
+&lt;p&gt;
+CSV (comma delimited). This format saves an Excel file as a comma-separated text that can be used in another Windows program or another version of Windows operating system.
+CSV (Macintosh). This format saves your Excel workbook as a comma-separated file for use on Mac operating system.
+CSV (MS-DOS). Saves your Excel file as a comma-separated file for use on the MS-DOS operating system.
+Unicode Text (*txt). This is a computing industry standard supported by almost all current operating systems including Windows, Macintosh, Linux and Solaris Unix. It can handle characters of almost all modern languages and even some ancient ones. So, if you Excel file contains data in a foreign language, save it in the Unicode Text format first and then convert to CSV, as explained in Exporting Excel to CSV UTF-8 or UTF-16.
+Note. All of the above mentioned formats save only the active Excel sheet.
+&lt;/p&gt;
+
+&lt;ol class="org-ol"&gt;
+&lt;li&gt;Choose the destination folder where you want to save your Excel file in the CSV format, and then click Save. After you click Save, Excel will display two dialogs. Don't worry, these are not error messages and everything is going right.&lt;/li&gt;
+
+&lt;li&gt;The first dialog reminds you that only the active Excel spreadsheet will be saved to the CSV file format. If this is what you are looking for, click OK. If you need to save the contents of all the sheets your workbook contains, click Cancel and then save each spreadsheet individually as a separate Excel file (workbook). After that save each Excel file as CSV.&lt;/li&gt;
+
+&lt;li&gt;Clicking OK in the first dialog will display a second message informing you that your worksheet may contain features unsupported by the CSV encoding. This is Okay, so simply click Yes.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id="outline-container-orge70877a" class="outline-2"&gt;
+&lt;h2 id="orge70877a"&gt;Export Excel to CSV with UTF-8 or UTF-16 encoding&lt;/h2&gt;
+&lt;div class="outline-text-2" id="text-orge70877a"&gt;
+&lt;p&gt;
+If your Excel spreadsheets contain some special symbols, foreign characters (tildes, accent etc.) or hieroglyphs, then converting Excel to CSV in the way described above won't work.
+&lt;/p&gt;
+
+&lt;p&gt;
+The point is the Save As CSV command distorts any characters other than ASCII (American Standard Code for Information Interchange). And if your Excel file has smart quotes or long dashes (e.g. inherited from the original Word document that was copied /pasted to Excel), these characters would be mangled too.
+&lt;/p&gt;
+
+&lt;p&gt;
+An easy alternative is saving an Excel workbook as a Unicode(.txt) file and then converting it to CSV. In this way you will keep all non-ASCII characters undamaged.
+&lt;/p&gt;
+
+&lt;p&gt;
+Before we proceed further, let me briefly point out the main differences between UTF-8 and UTF-16 encodings so that you can choose the right format in each particular case.
+&lt;/p&gt;
+
+&lt;p&gt;
+UTF-8 is a more compact encoding since it uses 1 to 4 bytes for each symbol. Generally, this format is recommended if ASCII characters are most prevalent in your file because most such characters are stored in one byte each. Another advantage is that a UTF-8 file containing only ASCII characters has absolutely the same encoding as an ASCII file.
+&lt;/p&gt;
+
+&lt;p&gt;
+UTF-16 uses 2 to 4 bytes to store each symbol. However, a UTF-16 file does not always require more storage than UTF-8. For example, Japanese characters take 3 to 4 bytes in UTF-8 and 2 to 4 bytes in UTF-16. So, you may want to use UTF-16 if your Excel data contains any Asian characters, including Japanese, Chinese or Korean. A noticeable disadvantage of this format is that it's not fully compatible with ASCII files and requires some Unicode-aware programs to display them. Please keep this in mind if you are going to import the resulting file somewhere outside of Excel.
+&lt;/p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;p&gt;
+dd
+&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;</description><guid>http://yanboyang.com/posts/convert-excel-to-csv/</guid><pubDate>Wed, 11 Apr 2018 01:05:28 GMT</pubDate></item><item><title>An Effective Git And Org-Mode Based Workflow For Reproducible Research Literature review</title><link>http://yanboyang.com/posts/an-effective-git-and-org-mode-based-workflow-for-reproducible-research-literature-review/</link><dc:creator>Boyang Yan</dc:creator><description>&lt;p&gt;
 In this paper we address the question of developing a
 lightweight and effective workflow for conducting experimental
 research on modern parallel computer systems in a reproducible
